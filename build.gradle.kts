@@ -7,7 +7,7 @@ plugins {
     signing
 }
 
-group = "app.revanced"
+group = "app.revancedcontributor"
 
 repositories {
     mavenCentral()
@@ -35,13 +35,13 @@ kotlin {
 tasks {
     withType(Jar::class) {
         manifest {
-            attributes["Name"] = "ReVanced Patches template"
-            attributes["Description"] = "Patches template for ReVanced."
+            attributes["Name"] = "ReVanced Patches"
+            attributes["Description"] = "Patches for ReVanced."
             attributes["Version"] = version
             attributes["Timestamp"] = System.currentTimeMillis().toString()
-            attributes["Source"] = "git@github.com:revanced/revanced-patches-template.git"
-            attributes["Author"] = "ReVanced"
-            attributes["Contact"] = "contact@revanced.app"
+            attributes["Source"] = "git@github.com:andronedev/revanced-patches.git"
+            attributes["Author"] = "andronedev"
+            attributes["Contact"] = "contact@nomail.com"
             attributes["Origin"] = "https://revanced.app"
             attributes["License"] = "GNU General Public License v3.0"
         }
@@ -114,9 +114,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/revanced/revanced-patches-template.git"
-                    developerConnection = "scm:git:git@github.com:revanced/revanced-patches-template.git"
-                    url = "https://github.com/revanced/revanced-patches-template"
+                    connection = "scm:git:git://github.com/andronedev/revanced-patches.git"
+                    developerConnection = "scm:git:git@github.com:andronedev/revanced-patches.git"
+                    url = "https://github.com/andronedev/revanced-patches"
                 }
             }
         }

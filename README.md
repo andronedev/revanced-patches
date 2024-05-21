@@ -1,4 +1,4 @@
-# 👋🧩 ReVanced Patches template
+# 👋🧩 ReVanced Patches
 
 This is a template for creating a new ReVanced Patches repository.  
 The repository can have multiple patches, and patches from other repositories can be used together.
