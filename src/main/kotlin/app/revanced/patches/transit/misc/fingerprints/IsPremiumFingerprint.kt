@@ -181,44 +181,7 @@ import com.android.tools.smali.dexlib2.Opcode
 internal object IsPremiumFingerprint : MethodFingerprint(
     // this methode is used to find the fingerprint of the method fetchSubscriptionStatus
     accessFlags = AccessFlags.PUBLIC or AccessFlags.STATIC,
-    parameters = listOf("Z", "J"),
-    returnType = "V",
-    opcodes = listOf(
-        Opcode.IF_EQZ,
-        Opcode.INVOKE_STATIC,
-        Opcode.MOVE_RESULT_WIDE,
-        Opcode.CONST_WIDE_32,
-        Opcode.ADD_LONG_2ADDR,
-        Opcode.NEW_INSTANCE,
-        Opcode.CONST_16,
-        Opcode.INT_TO_LONG,
-        Opcode.SUB_LONG,
-        Opcode.CONST_16,
-        Opcode.INT_TO_LONG,
-        Opcode.DIV_LONG,
-        Opcode.CONST_4,
-        Opcode.CONST_4,
-        Opcode.CONST_STRING,
-        Opcode.CONST_4,
-        Opcode.CONST_4,
-        Opcode.CONST_WIDE_16,
-        Opcode.CONST_WIDE_16,
-        Opcode.MOVE_OBJECT,
-        Opcode.MOVE_OBJECT,
-        Opcode.MOVE_WIDE,
-        Opcode.INVOKE_DIRECT_RANGE,
-        Opcode.SGET_OBJECT,
-        Opcode.MOVE_OBJECT,
-        Opcode.INVOKE_VIRTUAL,
-        Opcode.MOVE_RESULT_OBJECT,
-        Opcode.INVOKE_STATIC,
-        Opcode.RETURN_VOID,
-        Opcode.IF_EQZ,
-        Opcode.NEW_INSTANCE,
-        Opcode.CONST_4,
-        Opcode.INVOKE_DIRECT,
-        Opcode.MOVE,
-        Opcode.INVOKE_STATIC,
-        Opcode.RETURN_VOID
-    )
+    customFingerprint = { methodDef, _ ->
+        methodDef.name == "fetchSubscriptionStatus"
+    },
 )

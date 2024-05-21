@@ -17,8 +17,7 @@ import app.revanced.patches.transit.misc.fingerprints.IsPremiumFingerprint
 @Suppress("unused")
 object TransitUnlockPatch :  BytecodePatch(setOf(IsPremiumFingerprint)) {
     override fun execute(context: BytecodeContext) = IsPremiumFingerprint.result?.let { result ->
-        val isSubscribedIndex = result.scanResult.patternScanResult!!.startIndex
         // put v2 var with true
-        result.mutableMethod.addInstruction(isSubscribedIndex, "const/4 v2, 0x1")
+        result.mutableMethod.replaceInstruction(6, "const/4 v2, 0x1")
     } ?: throw IllegalStateException("Fingerprint not found")
 }
