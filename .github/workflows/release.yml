@@ -15,8 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Make sure the release step uses its own credentials:
-          # https://github.com/cycjimmy/semantic-release-action#private-packages
           persist-credentials: false
           fetch-depth: 0
 
@@ -26,7 +24,10 @@ jobs:
       - name: Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew generateMeta clean
+        run: |
+          trap 'kill $(jobs -p)' EXIT
+          timeout 30m ./gradlew generateMeta clean
+          ./gradlew --stop
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
