@@ -6,8 +6,9 @@ import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
 internal object IsPremiumFingerprint : MethodFingerprint(
+    // this methode is used to find the fingerprint of the method getEnvironmentVariableBooleanValue that is used in the TransitUnlockPatch
     customFingerprint ={ methodDef, classDef ->
-        classDef.type.endsWith("TransitLib") && methodDef.name == "getEnvironmentVariableBooleanValue"
+        methodDef.name == "getEnvironmentVariableBooleanValue" && methodDef.parameterTypes.size == 1 && methodDef.parameterTypes[0] == "Ljava/lang/String;"
     },
     returnType = "Z",
     parameters = listOf("Ljava/lang/String;"),
