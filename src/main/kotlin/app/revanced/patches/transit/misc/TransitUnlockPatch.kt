@@ -8,7 +8,7 @@ import app.revanced.patches.transit.misc.fingerprints.IsPremiumFingerprint
 
 @Patch(
     name = "Transit",
-    description = "Unlock All Pro features in Transit",
+    description = "Unlock all pro features in Transit",
     compatiblePackages = [
         CompatiblePackage("com.thetransitapp.droid", ["5.15.16"]),
     ],
