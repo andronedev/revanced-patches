@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Translations for YouTube -->
+    <!-- Shared PreferenceScreen -->
+    <!-- Shared Category -->
+    <!-- PreferenceScreen: Ads -->
+    <!-- PreferenceScreen: Alternative thumbnails -->
+    <!-- PreferenceScreen: Feed -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Category bar -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Channel profile -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Community posts -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Flyout menu -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Keyword filter -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: Recommended video -->
+    <!-- PreferenceScreen: Feed, PreferenceCategory: Feed, PreferenceScreen: Video filter, PreferenceCategory: View count filter -->
+    <!-- PreferenceScreen: General -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Account menu -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Custom filter -->
+    <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Navigation buttons -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Settings menu -->
+    <!-- PreferenceScreen: General, PreferenceCategory: General, PreferenceScreen: Toolbar -->
+    <!-- PreferenceScreen: Player -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Action buttons -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Ambient mode -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Channel bar -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Comments -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Flyout menu, PreferenceCategory: Additional settings -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Quick actions -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Fullscreen, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Haptic feedback -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Player buttons, PreferenceCategory: Overlay buttons -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Seekbar -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description -->
+    <!-- PreferenceScreen: Player, PreferenceCategory: Player, PreferenceScreen: Video description, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Shorts -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts shelf -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Action buttons -->
+    <!-- PreferenceScreen: Shorts, PreferenceCategory: Shorts, PreferenceScreen: Shorts player, PreferenceCategory: Experimental Flags -->
+    <!-- PreferenceScreen: Swipe controls -->
+    <!-- PreferenceScreen: Video -->
+    <!-- PreferenceScreen: Return YouTube Dislike -->
+    <!-- PreferenceScreen: Return YouTube Dislike, PreferenceCategory: About -->
+    <!-- PreferenceScreen: SponsorBlock -->
+    <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Appearance -->
+    <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Change segment behavior -->
+    <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Creating new segments -->
+    <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: General -->
+    <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: Stats -->
+    <!-- PreferenceScreen: SponsorBlock, PreferenceCategory: About -->
+    <!-- PreferenceScreen: Miscellaneous -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as file -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Import / Export settings, PreferenceCategory: Import / Export as text -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceCategory: Patch information -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Tool used -->
+    <!-- PreferenceScreen: Miscellaneous, PreferenceCategory: Miscellaneous, PreferenceScreen: Patch information, PreferenceCategory: Others -->
+</resources>

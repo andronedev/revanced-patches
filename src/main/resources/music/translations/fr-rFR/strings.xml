@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared PreferenceScreen -->
+    <!-- Shared Category -->
+    <!-- PreferenceScreen: Account -->
+    <string name="revanced_hide_account_menu_title">Masquer les menus du compte</string>
+    <string name="revanced_hide_account_menu_summary">Masque les éléments du menu du compte.</string>
+    <string name="revanced_hide_account_menu_empty_component_title">Masquer les catégories vides</string>
+    <string name="revanced_hide_account_menu_empty_component_summary">Masque les catégories vides dans le menu du compte.</string>
+    <string name="revanced_hide_handle_title">Masquer le menu de compte</string>
+    <string name="revanced_hide_handle_summary">Masque le menu de compte.</string>
+    <string name="revanced_hide_terms_container_title">Masquer le conteneur de termes</string>
+    <string name="revanced_hide_terms_container_summary">Masque le conteneur de termes.</string>
+    <!-- PreferenceScreen: Action Bar -->
+    <string name="revanced_hide_action_button_comment_title">Masquer le bouton Commentaire</string>
+    <string name="revanced_hide_action_button_comment_summary">Masque le bouton commentaire.</string>
+    <string name="revanced_hide_action_button_add_to_playlist_title">Masquer \"Enregistrer dans la playlist\"</string>
+    <string name="revanced_hide_action_button_add_to_playlist_summary">Masque le bouton \"Enregistrer dans la playlist\".</string>
+    <string name="revanced_hide_action_button_download_title">Masquer le bouton \"Télécharger\"</string>
+    <string name="revanced_hide_action_button_download_summary">Masque le bouton \"Télécharger\".</string>
+    <string name="revanced_hide_action_button_share_title">Masquer le bouton \"Partager\"</string>
+    <string name="revanced_hide_action_button_share_summary">Masque le bouton \"Partager\".</string>
+    <string name="revanced_hide_action_button_radio_title">Masquer le bouton \"Radio\"</string>
+    <string name="revanced_hide_action_button_radio_summary">Masque le bouton \"démarrer la radio\".</string>
+    <string name="revanced_hide_action_button_label_summary">Masquer les labels dans le menu d\'action.</string>
+    <string name="revanced_hide_action_button_label_title">Masquer les labels des boutons d\'actions</string>
+    <string name="revanced_external_downloader_package_name_title">Nom du paquet du téléchargeur externe</string>
+    <string name="revanced_external_downloader_package_name_summary">Nom de package du téléchargeur externe installé, telle que NewPipe ou YTDLnis.</string>
+    <string name="revanced_external_downloader_not_installed_warning">%s n\'est pas installé. Veuillez l’installer.</string>
+    <!-- PreferenceScreen: Ads -->
+    <string name="revanced_hide_general_ads_title">Les publicités générales</string>
+    <string name="revanced_hide_general_ads_summary">Masque les publicités général</string>
+    <string name="revanced_hide_music_ads_title">Masquer les publicités musicales</string>
+    <string name="revanced_hide_music_ads_summary">Masque les publicités avant la lecture d\'une musique.</string>
+    <string name="revanced_hide_premium_promotion_title">Publicité popup pour YouTube Premium</string>
+    <string name="revanced_hide_premium_promotion_summary">Masque la publicité popup pour YouTube Premium</string>
+    <string name="revanced_hide_premium_renewal_title">Bannière de renouvellement de Premium</string>
+    <string name="revanced_hide_premium_renewal_summary">Masque la bannière de renouvellement de l\'abonnement Premium</string>
+    <!-- PreferenceScreen: Flyout -->
+    <string name="revanced_enable_compact_dialog_title">Activer les boîtes de dialogues compacts</string>
+    <string name="revanced_enable_compact_dialog_summary">"Activer les dialogues compacts sur téléphone.
+
+Problèmes connus :
+• Les pochettes d'albums de la bibliothèque deviennent aussi plus petites.
+• La disposition du minuteur de mise en veille peut être inhabituelle."</string>
+    <!-- PreferenceScreen: General -->
+    <string name="revanced_change_start_page_title">Page de démarrage</string>
+    <string name="revanced_change_start_page_summary">Modifie la page de démarrage de l\'appli</string>
+    <string name="revanced_change_start_page_entry_chart">Charts</string>
+    <string name="revanced_change_start_page_entry_explore">Explorer</string>
+    <string name="revanced_change_start_page_entry_home">Accueil</string>
+    <string name="revanced_change_start_page_entry_library">Bibliothèque</string>
+    <string name="revanced_change_start_page_entry_subscription">Abonnements</string>
+    <string name="revanced_disable_auto_captions_title">Désactiver les sous-titres forcés</string>
+    <string name="revanced_disable_auto_captions_summary">Désactive les sous-titres forcés.</string>
+    <string name="revanced_enable_landscape_mode_title">Activer le mode paysage</string>
+    <string name="revanced_enable_landscape_mode_summary">Permet de passer en mode paysage par rotation du téléphone.</string>
+    <string name="revanced_custom_filter_title">Activer le filtre personnalisé</string>
+    <string name="revanced_custom_filter_summary">Active les filtres personnalisés pour masquer des éléments de la mise en page.</string>
+    <string name="revanced_custom_filter_strings_title">Modifier le filtre personnalisé</string>
+    <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
+    <string name="revanced_custom_filter_strings_summary">Filtrer les noms des composants par une virgule.</string>
+    <string name="revanced_hide_button_shelf_title">Masquer les barres de boutons</string>
+    <string name="revanced_hide_button_shelf_summary">Masque les barres de boutons des pages \"Accueil\" et \"Explorer\" (Créer une radio, Nouveautés...)</string>
+    <string name="revanced_hide_carousel_shelf_title">Masquer les menus déroulants</string>
+    <string name="revanced_hide_carousel_shelf_summary">Masque les menus déroulants des pages \"Accueil\" et \"Explorer\".</string>
+    <string name="revanced_hide_cast_button_title">Masquer le bouton de cast</string>
+    <string name="revanced_hide_cast_button_summary">Masque le bouton de cast.</string>
+    <string name="revanced_hide_category_bar_title">Masquer la barre de catégories</string>
+    <string name="revanced_hide_category_bar_summary">Masque la barre des catégories musicales en haut de la page \"Accueil\".</string>
+    <string name="revanced_hide_history_button_title">Masquer le bouton \"Historique\"</string>
+    <string name="revanced_hide_history_button_summary">Masquer le bouton \"Historique\" de la Bibliothèque.</string>
+    <string name="revanced_remove_viewer_discretion_dialog_title">Supprimer le dialogue sur la discrétion du spectateur</string>
+    <string name="revanced_remove_viewer_discretion_dialog_summary">"Supprimer la boîte de dialogue relative à la discrétion du spectateur.
+Cela ne permet pas de contourner la restriction d'âge, mais de l'accepter automatiquement."</string>
+    <string name="revanced_spoof_app_version_title">Falsifier la version de l\'app</string>
+    <string name="revanced_spoof_app_version_summary">"Falsifie la version du client vers une ancienne version."</string>
+    <string name="revanced_spoof_app_version_target_title">Version cible pour la falsification</string>
+    <string name="revanced_spoof_app_version_target_summary">Sélectionnez la version cible de l\'application à falsifier.</string>
+    <string name="revanced_spoof_app_version_target_entry_4_27_53">4.27.53 - Désactive le mode radio dans les régions canadiennes</string>
+    <!-- PreferenceScreen: Navigation Bar -->
+    <string name="revanced_enable_black_navigation_bar_title">Définir la barre de navigation en noir</string>
+    <string name="revanced_enable_black_navigation_bar_summary">Définit la couleur de la barre de navigation en noir.</string>
+    <string name="revanced_hide_navigation_bar_title">Masquer la barre de navigation</string>
+    <string name="revanced_hide_navigation_bar_summary">Masque la barre de navigation.</string>
+    <string name="revanced_hide_navigation_label_title">Masquer les libellés dans barre de navigation</string>
+    <string name="revanced_hide_navigation_label_summary">Masquer les libellés des pages dans la barre de navigation.</string>
+    <!-- PreferenceScreen: Player -->
+    <string name="revanced_enable_color_match_player_title">Assortir les couleurs du lecteur réduit</string>
+    <string name="revanced_enable_color_match_player_summary">Fait correspondre la couleur du lecteur réduit à celle du lecteur en plein écran.</string>
+    <string name="revanced_enable_force_minimized_player_title">Forcer le lecteur réduit</string>
+    <string name="revanced_enable_force_minimized_player_summary">Le lecteur reste toujours réduit même si une autre piste est lue.</string>
+    <string name="revanced_enable_zen_mode_title">Activer le mode zen</string>
+    <string name="revanced_enable_zen_mode_summary">Ajoute une teinte grise au lecteur vidéo pour réduire la fatigue oculaire.</string>
+    <string name="revanced_remember_repeat_state_title">Mémorisation du mode répétition</string>
+    <string name="revanced_remember_repeat_state_summary">Mémoriser le mode répétition.</string>
+    <string name="revanced_remember_shuffle_state_title">Mémorisation du mode aléatoire</string>
+    <string name="revanced_remember_shuffle_state_summary">Mémoriser le mode aléatoire.</string>
+    <string name="revanced_replace_player_cast_button_title">Remplacer le bouton \"Cast\"</string>
+    <!-- PreferenceScreen: Video -->
+    <string name="revanced_custom_playback_speeds_title">Vitesses de lecture personnalisées</string>
+    <string name="revanced_custom_playback_speeds_summary">Ajouter ou modifier les vitesses de lecture disponibles.</string>
+    <string name="revanced_custom_playback_speeds_invalid">Vitesses de lecture invalides. Rétablissez les valeurs par défaut.</string>
+    <!-- PreferenceScreen: Return YouTube Dislike -->
+    <string name="revanced_ryd_enabled_summary">Affiche les \"Je n\'aime pas\" sur les vidéos.</string>
+    <string name="revanced_ryd_dislike_percentage_title">\"Je n\'aime pas\" en pourcentage</string>
+    <string name="revanced_ryd_dislike_percentage_summary">Les \"Je n\'aime pas\" sont affichés en pourcentages au lieu des nombres.</string>
+    <string name="revanced_ryd_compact_layout_title">Bouton \"J\'aime\" compact</string>
+    <string name="revanced_ryd_compact_layout_summary">Masque les séparateurs gris sur les \"J\'aime\".</string>
+    <string name="revanced_ryd_toast_on_connection_error_title">Afficher un message si l\'API n\'est pas disponible</string>
+    <string name="revanced_ryd_toast_on_connection_error_summary">Message affiché si l\'API ReturnYouTubeDislike n\'est pas disponible.</string>
+    <string name="revanced_ryd_about">À propos</string>
+    <string name="revanced_ryd_attribution_summary">Les données des \"Je n\'aime pas\" sont fournies par l\'API de Return YouTube Dislike. Appuyez ici pour en savoir plus.</string>
+    <string name="revanced_ryd_failure_connection_timeout">Les dislikes sont temporairement indisponible (API obsolète)</string>
+    <string name="revanced_ryd_failure_connection_status_code">Dislikes non disponible (status %d).</string>
+    <string name="revanced_ryd_failure_client_rate_limit_requested">Les dislikes sont indisponibles (limite d\'API client atteinte).</string>
+    <string name="revanced_ryd_failure_generic">Dislikes non disponible (%s).</string>
+    <string name="revanced_ryd_video_likes_hidden_by_video_owner">Masqué</string>
+    <!-- PreferenceScreen: SponsorBlock -->
+    <!-- PreferenceScreen: Miscellaneous -->
+    <string name="revanced_enable_debug_logging_title">Activer le journal de débogage</string>
+    <string name="revanced_enable_debug_logging_summary">Enregistrer le journal de débogage.</string>
+    <string name="revanced_enable_opus_codec_title">Activer le codec Opus</string>
+    <string name="revanced_enable_opus_codec_summary">Active le codec audio Opus au lieu du codec audio MP4A.</string>
+    <string name="revanced_sanitize_sharing_links_title">Nettoies les liens partagés</string>
+    <string name="revanced_sanitize_sharing_links_summary">Supprime les paramètres de tracking des URL lors des partages de liens.</string>
+    <string name="revanced_extended_settings_import_export_title">Importer / Exporter</string>
+    <string name="revanced_extended_settings_import_export_summary">Importer ou exporter les paramètres au format texte.</string>
+    <string name="revanced_extended_settings_export_as_file">Exporter les paramètres vers un fichier</string>
+    <string name="revanced_extended_settings_import_as_file">Importer les paramètres depuis un fichier</string>
+    <string name="revanced_extended_settings_import_export_as_text">Importer / Exporter les paramètres sous forme de texte</string>
+    <string name="revanced_extended_settings_export_failed">Échec de l\'exportation des paramètres</string>
+    <string name="revanced_extended_settings_export_success">Les paramètres ont été exportés avec succès</string>
+    <string name="revanced_extended_settings_import">Importer</string>
+    <string name="revanced_extended_settings_import_copy">Copier</string>
+    <string name="revanced_extended_settings_import_failed">Importation échouée : %s.</string>
+    <string name="revanced_extended_settings_import_reset">Les paramètres ont étés réinitialisés.</string>
+    <string name="revanced_extended_settings_import_success"> %d Paramètres importés </string>
+    <string name="revanced_share_copy_settings_success">Paramètres copiés dans le presse-papier.</string>
+</resources>

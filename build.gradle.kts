@@ -1,8 +1,8 @@
 import org.gradle.kotlin.dsl.support.listFilesOrdered
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlin)
-    alias(libs.plugins.binary.compatibility.validator)
     `maven-publish`
     signing
 }
@@ -14,8 +14,7 @@ repositories {
     mavenLocal()
     google()
     maven {
-        // A repository must be speficied for some reason. "registry" is a dummy.
-        url = uri("https://maven.pkg.github.com/revanced/registry")
+        url = uri("https://maven.pkg.github.com/revanced/multidexlib2")
         credentials {
             username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
             password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
@@ -26,22 +25,32 @@ repositories {
 dependencies {
     implementation(libs.revanced.patcher)
     implementation(libs.smali)
+    // Used in JsonGenerator.
+    implementation(libs.gson)
 }
 
 kotlin {
-    jvmToolchain(11)
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_11)
+    }
+}
+
+java {
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 tasks {
     withType(Jar::class) {
+        exclude("app/revanced/generator")
+
         manifest {
             attributes["Name"] = "ReVanced Patches"
             attributes["Description"] = "Patches for ReVanced."
             attributes["Version"] = version
             attributes["Timestamp"] = System.currentTimeMillis().toString()
-            attributes["Source"] = "git@github.com:andronedev/revanced-patches.git"
-            attributes["Author"] = "andronedev"
-            attributes["Contact"] = "contact@nomail.com"
+            attributes["Source"] = "git@github.com:revanced/revanced-patches.git"
+            attributes["Author"] = "ReVanced"
+            attributes["Contact"] = "contact@revanced.app"
             attributes["Origin"] = "https://revanced.app"
             attributes["License"] = "GNU General Public License v3.0"
         }
@@ -72,10 +81,20 @@ tasks {
         }
     }
 
+    register<JavaExec>("generatePatchesFiles") {
+        description = "Generate patches files"
+
+        dependsOn(build)
+
+        classpath = sourceSets["main"].runtimeClasspath
+        mainClass.set("app.revanced.generator.MainKt")
+    }
+
     // Needed by gradle-semantic-release-plugin.
     // Tracking: https://github.com/KengoTODA/gradle-semantic-release-plugin/issues/435
     publish {
         dependsOn("buildDexJar")
+        dependsOn("generatePatchesFiles")
     }
 }
 
@@ -83,10 +102,10 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/andronedev/revanced-patches")
+            url = uri("https://maven.pkg.github.com/inotia00/revanced-patches")
             credentials {
-                username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
-                password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
@@ -96,8 +115,8 @@ publishing {
             from(components["java"])
 
             pom {
-                name = "ReVanced Patches template"
-                description = "Patches template for ReVanced."
+                name = "ReVanced Patches"
+                description = "Patches for ReVanced."
                 url = "https://revanced.app"
 
                 licenses {
@@ -114,9 +133,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/andronedev/revanced-patches.git"
-                    developerConnection = "scm:git:git@github.com:andronedev/revanced-patches.git"
-                    url = "https://github.com/andronedev/revanced-patches"
+                    connection = "scm:git:git://github.com/revanced/revanced-patches.git"
+                    developerConnection = "scm:git:git@github.com:revanced/revanced-patches.git"
+                    url = "https://github.com/revanced/revanced-patches"
                 }
             }
         }
