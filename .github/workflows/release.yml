@@ -48,3 +48,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.REPOSITORY_PUSH_ACCESS }}
         run: npm exec semantic-release
+
+      - name: Force kill orphan processes"
+        run: pkill -9 -P 1
