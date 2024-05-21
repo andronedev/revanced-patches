@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/andronedev/revanced-patches/compare/v1.0.3...v1.0.4) (2024-05-21)
+
+
+### Bug Fixes
+
+* **pencil:** fix CI ([ca7c037](https://github.com/andronedev/revanced-patches/commit/ca7c037b32d3d29290279eac381d2971901174f5))
+
 ## [1.0.3](https://github.com/andronedev/revanced-patches/compare/v1.0.2...v1.0.3) (2024-05-21)
 
 
