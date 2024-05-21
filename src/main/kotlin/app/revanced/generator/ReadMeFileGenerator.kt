@@ -31,6 +31,7 @@ internal class ReadMeFileGenerator : PatchesFileGenerator {
             .toString()
             .let(readMeTemplateTempFile::writeText)
 
+     /*
         // add a list of supported versions to a temp file
         mapOf(
             app.revanced.patches.music.utils.compatibility.Constants.COMPATIBLE_PACKAGE to "\"COMPATIBLE_PACKAGE_MUSIC\"",
@@ -56,6 +57,7 @@ internal class ReadMeFileGenerator : PatchesFileGenerator {
                         .let(readMeTemplateTempFile::writeText)
                 }
         }
+      */
 
         mutableMapOf<String, MutableSet<Patch<*>>>()
             .apply {

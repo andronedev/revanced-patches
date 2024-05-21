@@ -124,6 +124,3 @@ node_modules/
 
 # gradle properties, due to Github token
 ./gradle.properties
-
-# Ignore IDEA files
-.idea/
