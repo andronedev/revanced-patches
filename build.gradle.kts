@@ -7,7 +7,7 @@ plugins {
     signing
 }
 
-group = "app.revancedcontributor"
+group = "app.revanced"
 
 repositories {
     mavenCentral()
@@ -83,7 +83,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/revanced/revanced-patches-template")
+            url = uri("https://maven.pkg.github.com/revanced/revanced-patcher")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")

@@ -1,4 +1,4 @@
-package app.revanced.patches.example
+package app.revanced.patches
 
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.patch.BytecodePatch
