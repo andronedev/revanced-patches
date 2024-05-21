@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/andronedev/revanced-patches/compare/v1.0.1...v1.0.2) (2024-05-21)
+
+
+### Bug Fixes
+
+* **pencil:** fix patch transit ([4f53b07](https://github.com/andronedev/revanced-patches/commit/4f53b077fb8fa5c4819dd0358db57eb7ad796f9b))
+
 ## [1.0.1](https://github.com/andronedev/revanced-patches/compare/v1.0.0...v1.0.1) (2024-05-21)
 
 
