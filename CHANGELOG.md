@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/andronedev/revanced-patches/compare/v1.0.5...v1.0.6) (2024-05-21)
+
+
+### Bug Fixes
+
+* **pencil:** fix unlock patch ([8f9a4d8](https://github.com/andronedev/revanced-patches/commit/8f9a4d8482f3c8f5ac45970beb5a7856fa2ea305))
+
 ## [1.0.5](https://github.com/andronedev/revanced-patches/compare/v1.0.4...v1.0.5) (2024-05-21)
 
 
