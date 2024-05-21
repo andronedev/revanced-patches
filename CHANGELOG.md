@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/andronedev/revanced-patches/compare/v1.0.2...v1.0.3) (2024-05-21)
+
+
+### Bug Fixes
+
+* **pencil:** remove cache in CI ([8276853](https://github.com/andronedev/revanced-patches/commit/8276853e8a9aec322ac8155522de89bfc08013f7))
+
 ## [1.0.2](https://github.com/andronedev/revanced-patches/compare/v1.0.1...v1.0.2) (2024-05-21)
 
 
