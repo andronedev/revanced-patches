@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/andronedev/revanced-patches/compare/v1.0.0...v1.0.1) (2024-05-21)
+
+
+### Bug Fixes
+
+* **pencil:** fix ci -> orphan processes killed ([a5c79ad](https://github.com/andronedev/revanced-patches/commit/a5c79ad684393e118d290e9e558868f514e392c4))
+
 # 1.0.0 (2024-05-21)
 
 
