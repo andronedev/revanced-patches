@@ -6,7 +6,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patches.geniusscan.misc.fingerprints.CurrentPlanFingerprint
-import app.revanced.patches.transit.misc.fingerprints.IsPremiumFingerprint
+import com.android.tools.smali.dexlib2.Opcode
 
 @Patch(
     name = "Pro Features Unlock",
@@ -17,8 +17,18 @@ import app.revanced.patches.transit.misc.fingerprints.IsPremiumFingerprint
 )
 @Suppress("unused")
 object GeniusscanUnlockPatch : BytecodePatch(setOf(CurrentPlanFingerprint)) {
-    override fun execute(context: BytecodeContext) = IsPremiumFingerprint.result?.let { result ->
+    override fun execute(context: BytecodeContext) = CurrentPlanFingerprint.result?.let { result ->
         // always return "ultra" plan
-        result.mutableMethod.replaceInstruction(4, "const/4 p1, 0x4")
+        val instructions = result.mutableMethod.implementation!!.instructions
+        val targetInstructionIndex = instructions.indexOfFirst { it.opcode == Opcode.CONST_STRING && it.toString().contains("basic") }
+
+        if (targetInstructionIndex != -1) {
+            // Replace the instruction at the found index to return "ultra"
+            result.mutableMethod.replaceInstruction(targetInstructionIndex, "const-string p1, \"ultra\"")
+            // Adjust the return statement if necessary
+            result.mutableMethod.replaceInstruction(targetInstructionIndex + 1, "return-object p1")
+        } else {
+            throw IllegalStateException("Target instruction not found")
+        }
     } ?: throw IllegalStateException("Fingerprint not found")
 }
