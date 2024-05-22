@@ -6,6 +6,5 @@ import com.android.tools.smali.dexlib2.AccessFlags
 
 object CurrentPlanFingerprint : MethodFingerprint(
     // this methode is used to find the fingerprint of the that returns the current plan
-    returnType = "Ljava/lang/String;",
     strings = listOf("basic", "plus", "plusLegacy", "ultra"),
     )
