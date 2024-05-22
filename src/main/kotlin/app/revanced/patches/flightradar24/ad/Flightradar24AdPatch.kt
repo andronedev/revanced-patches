@@ -19,7 +19,7 @@ object Flightradar24AdPatch :  BytecodePatch(setOf(AdEnabledFingerprint)) {
         result.mutableMethod.replaceInstruction(
             0,
             """
-            const/4 v0, 0x1
+            const/4 v0, 0x0
             return v0
         """
         )
