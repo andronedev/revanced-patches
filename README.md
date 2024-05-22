@@ -13,12 +13,11 @@ ReVanced Extended Patches.
 
 </details>
 
-### [📦 `com.flightradar24free`](https://play.google.com/store/apps/details?id=com.flightradar24free)
+### [📦 `com.thegrizzlylabs.geniusscan.free`](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free)
 <details>
 
-|      💊 Patch      |        📜 Description         | 🏹 Target Version |
-|:------------------:|:-----------------------------:|:-----------------:|
-| `Max Alerts Patch` | Allow unlimited alerts (BETA) |        any        |
-|   `Disable Ads`    | Disable ads in Flightradar24 (BETA) |        any        |
+|      💊 Patch      |    📜 Description    | 🏹 Target Version |
+|:------------------:|:--------------------:|:-----------------:|
+| `Unlock plus plan` | Unlock plus features |        7.17.2        |
 
 </details>
