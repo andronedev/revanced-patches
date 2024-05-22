@@ -16,8 +16,9 @@ ReVanced Extended Patches.
 ### [📦 `com.flightradar24free`](https://play.google.com/store/apps/details?id=com.flightradar24free)
 <details>
 
-|       💊 Patch        |        📜 Description         | 🏹 Target Version |
-|:---------------------:|:-----------------------------:|:-----------------:|
+|      💊 Patch      |        📜 Description         | 🏹 Target Version |
+|:------------------:|:-----------------------------:|:-----------------:|
 | `Max Alerts Patch` | Allow unlimited alerts (BETA) |        any        |
+|   `Disable Ads`    | Disable ads in Flightradar24 (BETA) |        any        |
 
 </details>
