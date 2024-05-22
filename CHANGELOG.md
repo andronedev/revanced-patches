@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/andronedev/revanced-patches/compare/v1.0.7...v1.1.0) (2024-05-22)
+
+
+### Features
+
+* **transit:** allow all versions tu use the `Pro Features unlock` patch ([6e9d9c2](https://github.com/andronedev/revanced-patches/commit/6e9d9c28c795edb9ed2e75054238775a5f3ee45f))
+
 ## [1.0.7](https://github.com/andronedev/revanced-patches/compare/v1.0.6...v1.0.7) (2024-05-21)
 
 
