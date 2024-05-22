@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/andronedev/revanced-patches/compare/v1.4.1...v1.4.2) (2024-05-22)
+
+
+### Bug Fixes
+
+* **geniusscan:** Fix `Pro Features Unlock` patch ([41b98ce](https://github.com/andronedev/revanced-patches/commit/41b98cef86be1de37f0ec846da839ea9a008ae76))
+
 ## [1.4.1](https://github.com/andronedev/revanced-patches/compare/v1.4.0...v1.4.1) (2024-05-22)
 
 
