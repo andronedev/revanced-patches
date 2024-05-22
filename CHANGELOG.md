@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/andronedev/revanced-patches/compare/v1.1.0...v1.2.0) (2024-05-22)
+
+
+### Features
+
+* **flightradar24:** add (wip) `Max Alerts Patch` ([e765db3](https://github.com/andronedev/revanced-patches/commit/e765db32e228e6b9b7e57b13cd4548a0fba5b741))
+
 # [1.1.0](https://github.com/andronedev/revanced-patches/compare/v1.0.7...v1.1.0) (2024-05-22)
 
 
