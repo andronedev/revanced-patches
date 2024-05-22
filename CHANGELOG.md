@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/andronedev/revanced-patches/compare/v1.2.1...v1.3.0) (2024-05-22)
+
+
+### Bug Fixes
+
+* **flightradar24:** fix patch ([2297ce4](https://github.com/andronedev/revanced-patches/commit/2297ce43e0e5569daae6bfa5e4099a419d803b54))
+* **transit:** fix patch ([d43d4a8](https://github.com/andronedev/revanced-patches/commit/d43d4a8c240523a82891ac4fccbb167bacc44df2))
+
+
+### Features
+
+* **flightradar24:** add `Disable Ads` patch ([0ebda81](https://github.com/andronedev/revanced-patches/commit/0ebda81db1060adf1ba690a7cf9200de486d9a4d))
+
 ## [1.2.1](https://github.com/andronedev/revanced-patches/compare/v1.2.0...v1.2.1) (2024-05-22)
 
 
