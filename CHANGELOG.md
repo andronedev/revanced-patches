@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/andronedev/revanced-patches/compare/v1.3.2...v1.4.0) (2024-05-22)
+
+
+### Features
+
+* **geniusscan:** Add `Pro Features Unlock` patch ([6d74a62](https://github.com/andronedev/revanced-patches/commit/6d74a6280ccd0654e42f76c06a5769dc599599af))
+
 ## [1.3.2](https://github.com/andronedev/revanced-patches/compare/v1.3.1...v1.3.2) (2024-05-22)
 
 
