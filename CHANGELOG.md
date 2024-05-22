@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/andronedev/revanced-patches/compare/v1.4.0...v1.4.1) (2024-05-22)
+
+
+### Bug Fixes
+
+* **geniusscan:** Fix fingerprint for `Pro Features Unlock` patch ([b3fc400](https://github.com/andronedev/revanced-patches/commit/b3fc400eb77160ca67d6bae9502cd088db2d7d6d))
+
 # [1.4.0](https://github.com/andronedev/revanced-patches/compare/v1.3.2...v1.4.0) (2024-05-22)
 
 
