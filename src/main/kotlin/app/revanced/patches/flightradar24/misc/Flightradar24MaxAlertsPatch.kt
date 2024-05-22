@@ -17,10 +17,9 @@ import app.revanced.patches.flightradar24.misc.fingerprints.GetMaxAlertsFingerpr
 @Suppress("unused")
 object Flightradar24MaxAlertsPatch :  BytecodePatch(setOf(GetMaxAlertsFingerprint)) {
     override fun execute(context: BytecodeContext) = GetMaxAlertsFingerprint.result?.let { result ->
-        // always return 50
         result.mutableMethod.replaceInstruction(0,
             """
-            const/16 v0, 0x32
+            const/16 v0, 0xa
             return v0
             """.trimIndent())
     } ?: throw IllegalStateException("Fingerprint not found")
