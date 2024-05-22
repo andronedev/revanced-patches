@@ -9,7 +9,9 @@ internal object getMaxAlertsFingerprint : MethodFingerprint(
     // this methode is used to find the fingerprint of the method getUserAlertsMax
     returnType = "I",
     accessFlags = AccessFlags.PUBLIC or AccessFlags.STATIC,
-    strings = listOf("userAlertsMax"),
+    customFingerprint = { methodDef, _ ->
+        methodDef.definingClass == "Lcom/flightradar24free/models/account/UserFeatures;" && methodDef.name == "getUserAlertsMax"
+    },
     opcodes = listOf(
         Opcode.IGET,
         Opcode.RETURN
